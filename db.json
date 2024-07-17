@@ -1,0 +1,171 @@
+{
+  "Users": [
+    {
+      "id": "f0d9",
+      "name": "adith Ravindarn",
+      "email": "adithravindran01@gmail.com",
+      "password": "12345678",
+      "confirmpassword": "12345678",
+      "cart": [
+        {
+          "id": "3",
+          "category": "men",
+          "img": "https://www.asics.com/in/en-in/media/catalog/product/1/0/1011b491_024_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
+          "title": "GEL-PULSE 14",
+          "description": "The GEL-PULSE™ 14 shoe creates the comfort you need to keep your mind focused on your workout, Whether you're on a run or at the gym, this shoe offers good cushioning and versatility for various activities,This shoe is redesigned with an engineered jacquard mesh, which improves airflow to keep your feet cool, It also wraps your foot with a comfortable fit and feel,Underfoot, the AMPLIFOAM™ cushioning is paired GEL™ technology produce a soft yet responsive stride",
+          "price": "4799.00",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": "c919",
+      "name": "adith Ravindarn",
+      "email": "adithravindran01@gmail.com",
+      "password": "12345678",
+      "confirmpassword": "12345678",
+      "cart": [
+        {
+          "id": 2,
+          "category": "men",
+          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
+          "title": "Nike Dunk Low",
+          "description": "Created for the hardwood but taken to the streets, this '80s basketball icon returns with classic details and throwback hoops flair. The synthetic leather overlays help the Nike Dunk channel vintage style while its padded, low-cut collar lets you take your game anywhere—in comfort.",
+          "price": "10795.00",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "category": "men",
+          "img": "https://www.asics.com/in/en-in/media/catalog/product/1/0/1011b491_024_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
+          "title": "GEL-PULSE 14",
+          "description": "The GEL-PULSE™ 14 shoe creates the comfort you need to keep your mind focused on your workout, Whether you're on a run or at the gym, this shoe offers good cushioning and versatility for various activities,This shoe is redesigned with an engineered jacquard mesh, which improves airflow to keep your feet cool, It also wraps your foot with a comfortable fit and feel,Underfoot, the AMPLIFOAM™ cushioning is paired GEL™ technology produce a soft yet responsive stride",
+          "price": "4799.00",
+          "quantity": "1"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a8c70e5b-ac86-4f27-b688-1deeaecec4b6/air-max-97-shoes-EBZrb8.png",
+      "category": "men",
+      "title": "Nike Air Max 97",
+      "description": "Featuring the original ripple design inspired by Japanese bullet trains, the Nike Air Max 97 lets you push your style full-speed ahead.Taking the revolutionary full-length Nike Air unit that shook up the running world and adding fresh colours and crisp details, it lets you ride in first-class comfort.",
+      "price": "16995.00",
+      "quantity": "1"
+    },
+    {
+      "id": "2",
+      "category": "men",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
+      "title": "Nike Dunk Low",
+      "description": "Created for the hardwood but taken to the streets, this '80s basketball icon returns with classic details and throwback hoops flair. The synthetic leather overlays help the Nike Dunk channel vintage style while its padded, low-cut collar lets you take your game anywhere—in comfort.",
+      "price": "10795.00",
+      "quantity": "1"
+    },
+    {
+      "id": "3",
+      "category": "men",
+      "img": "https://www.asics.com/in/en-in/media/catalog/product/1/0/1011b491_024_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
+      "title": "GEL-PULSE 14",
+      "description": "The GEL-PULSE™ 14 shoe creates the comfort you need to keep your mind focused on your workout, Whether you're on a run or at the gym, this shoe offers good cushioning and versatility for various activities,This shoe is redesigned with an engineered jacquard mesh, which improves airflow to keep your feet cool, It also wraps your foot with a comfortable fit and feel,Underfoot, the AMPLIFOAM™ cushioning is paired GEL™ technology produce a soft yet responsive stride",
+      "price": "4799.00",
+      "quantity": "1"
+    },
+    {
+      "id": "4",
+      "category": "men",
+      "img": "https://nb.scene7.com/is/image/NB/u9060blk_nb_05_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
+      "title": "NB-9060",
+      "description": "The 9060 is a new expression of the refined style and innovation-led design that have made the 99X series home to some of the most iconic models in New Balance history. The 9060 reinterprets familiar elements sourced from classic 99X models with a warped sensibility inspired by the proudly futuristic, visible tech aesthetic of the Y2K era. Sway bars, taken from the 990, are expanded and utilized throughout the entire upper for a sense of visible motion, while wavy lines and scaled up proportions on a sculpted pod midsole place an exaggerated emphasis on the familiar cushioning platforms of ABZORB and SBS.",
+      "price": "12599.00",
+      "quantity": "1"
+    },
+    {
+      "id": "5",
+      "category": "men",
+      "img": "https://nb.scene7.com/is/image/NB/u574gbg_nb_05_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
+      "title": "NB-574",
+      "description": "The most New Balance shoe ever’ says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As a hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. That’s why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone.",
+      "price": "5899.00",
+      "quantity": "1"
+    },
+    {
+      "id": "6",
+      "category": "men",
+      "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ca2e5777522b4c708f0602d38c6b3cf6_9366/Samba_OG_Shoes_White_IF3813_01_standard.jpg",
+      "title": "SAMBA OG SHOES",
+      "description": "CLASSIC SHOES IN SOFT LEATHER WITH A SUEDE T-TOE.",
+      "price": "10999.00",
+      "quantity": "1"
+    },
+    {
+      "id": "7",
+      "category": "women",
+      "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/627dcb0a-88bf-4ab9-aeca-539b396baaea/air-max-dn-se-shoes-vhS1Sm.png",
+      "title": "Nike Air Max Dn SE",
+      "description": "Say hello to the next generation of Air technology. The Air Max Dn features our Dynamic Air unit system of dual-pressure tubes, creating a reactive sensation with every step. This results in a futuristic design that's comfortable enough to wear from day to night. Go ahead—Feel The Unreal.",
+      "price": "14995.00",
+      "quantity": "1"
+    },
+    {
+      "id": "8",
+      "category": "women",
+      "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e79ea5db-d175-4a57-b19d-1a2f7862b774/air-force-1-07-lx-shoes-F2RxSm.png",
+      "title": "Nike Air Force 1 '07 LX",
+      "description": "The AF-1 makes the perfect backdrop for showing love to your furry friends. The mixed materials and a raised paw print on the tongue give fresh expression to a Nike classic.",
+      "price": "10795.00",
+      "quantity": "1"
+    },
+    {
+      "id": "9",
+      "category": "women",
+      "img": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/4fdb13fef61d415ea39f404a0d96a605_9366/galaxy-6-shoes.jpg",
+      "title": "GALAXY 6 SHOES",
+      "description": "COMFORTABLE RUNNING SHOES MADE IN PART WITH RECYCLED MATERIALS.",
+      "price": "3599.50",
+      "quantity": "1"
+    },
+    {
+      "id": "13",
+      "category": "women",
+      "img": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/e688ca5fb3484d308375d266998665ca_9366/heather-low-shoes.jpg",
+      "title": "HEATHER LOW SHOES",
+      "description": "A GREAT COMBO OF STYLE WITH COMFORT",
+      "price": "2879.00",
+      "quantity": "1"
+    },
+    {
+      "id": "10",
+      "sku": "",
+      "category": "women",
+      "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/378754/01/sv01/fnd/IND/fmt/png/Better-Foam-Prowl-Slip-Molt-Metal-Women's-Trainers",
+      "title": "Better Foam Prowl Slip Molt Metal Women's Trainers",
+      "description": "The future of footwear is here. This slip-on design incorporates a fresh, athletic upper with asymmetric elastic elements.",
+      "price": "2999.00",
+      "quantity": "1"
+    },
+    {
+      "id": "11",
+      "sku": "",
+      "category": "women",
+      "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/309834/03/sv01/fnd/IND/fmt/png/Softride-Remi-Slip-On-Knit-Women's-Running-Shoes",
+      "title": "Softride Remi Slip-On Knit Women's Running Shoes",
+      "description": "The Softride Remi is our new, comfort-focused women's specific runner. It features PUMA's SOFTRIDE cushioning technology",
+      "price": "3599.00",
+      "quantity": "1"
+    },
+    {
+      "id": "12",
+      "sku": "",
+      "category": "women",
+      "img": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/379606/02/sv01/fnd/IND/fmt/png/SOFTRIDE-Harmony-Slip-On-Women's-Shoes",
+      "title": "SOFTRIDE Harmony Slip-On Women's Shoes",
+      "description": "The SOFTRIDE Harmony is a women-specific everyday light trainer designed to help women attack their whole day",
+      "price": "3019.00",
+      "quantity": "1"
+    }
+  ]
+}
