@@ -9,6 +9,7 @@ export const Cart_Context = createContext()
 
 function CartContext({children}) {
   const [isloggedin,setlogin] = useState(false)
+  const[userLog,setloguser] = useState(false)
   const [cart, setcart] = useState([])
   const id = localStorage.getItem('id')
   
@@ -122,7 +123,7 @@ function CartContext({children}) {
   
 
   return (
-      <Cart_Context.Provider value={{data,size, cart, addtocart,removecart,increment,decrement,id,setcart}}>
+      <Cart_Context.Provider value={{data,size, cart, addtocart,removecart,increment,decrement,id,setcart,isloggedin,setlogin,userLog,setloguser}}>
         {children}
        </Cart_Context.Provider>
    )

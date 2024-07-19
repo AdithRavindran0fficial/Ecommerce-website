@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import { hamburger } from '../../assets/assets/icons'
+import { Cart_Context } from '../../User/Context/CartContext'
 
 function Navbar_admin() {
+  const {isloggedin,setlogin} = useContext(Cart_Context)
+  
   const[toggle, setToggle] = useState(false)
   const handleToggle = ()=>{
     setToggle(!toggle)
@@ -14,12 +17,13 @@ function Navbar_admin() {
         alt='logo' width={130} height={29}>
         </img>
         <ul className='border flex justify-between items-center gap-16 max-lg:hidden'>
-          <li><Link to="/admin/adm-home" >Home</Link></li>
-          <li><Link to="/admin/adm-products">Products</Link></li>
-          <li><Link to="/admin/adm-users">UserList</Link></li>
+          <li><Link to="admin" >Home</Link></li>
+          <li><Link to="adm-products">Products</Link></li>
+          <li><Link to="adm-users">UserList</Link></li>
         </ul>
         <ul className='max-lg:hidden'>
-          <li className='text-center '><Link to={"/login"}>Login</Link></li>
+          {isloggedin?
+          <li className='text-center '><Link to={"/login"}>Logout</Link></li>:<li className='text-center '><Link to={"/login"}>Login</Link></li>}
         </ul>
         <div className='hidden max-lg:block'>
           <button onClick={handleToggle}><img src={hamburger} width={25} height={25}>

@@ -44,6 +44,14 @@
           "quantity": "1"
         }
       ]
+    },
+    {
+      "id": "5e90",
+      "name": "admin",
+      "email": "admin321@gmail.com",
+      "password": "admin123",
+      "confirmpassword": "admin123",
+      "cart": []
     }
   ],
   "products": [
@@ -57,31 +65,13 @@
       "quantity": "1"
     },
     {
-      "id": "2",
-      "category": "men",
-      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
-      "title": "Nike Dunk Low",
-      "description": "Created for the hardwood but taken to the streets, this '80s basketball icon returns with classic details and throwback hoops flair. The synthetic leather overlays help the Nike Dunk channel vintage style while its padded, low-cut collar lets you take your game anywhere—in comfort.",
-      "price": "10795.00",
-      "quantity": "1"
-    },
-    {
-      "id": "3",
-      "category": "men",
-      "img": "https://www.asics.com/in/en-in/media/catalog/product/1/0/1011b491_024_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
-      "title": "GEL-PULSE 14",
+      "title": "Asics",
       "description": "The GEL-PULSE™ 14 shoe creates the comfort you need to keep your mind focused on your workout, Whether you're on a run or at the gym, this shoe offers good cushioning and versatility for various activities,This shoe is redesigned with an engineered jacquard mesh, which improves airflow to keep your feet cool, It also wraps your foot with a comfortable fit and feel,Underfoot, the AMPLIFOAM™ cushioning is paired GEL™ technology produce a soft yet responsive stride",
       "price": "4799.00",
-      "quantity": "1"
-    },
-    {
-      "id": "4",
       "category": "men",
-      "img": "https://nb.scene7.com/is/image/NB/u9060blk_nb_05_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
-      "title": "NB-9060",
-      "description": "The 9060 is a new expression of the refined style and innovation-led design that have made the 99X series home to some of the most iconic models in New Balance history. The 9060 reinterprets familiar elements sourced from classic 99X models with a warped sensibility inspired by the proudly futuristic, visible tech aesthetic of the Y2K era. Sway bars, taken from the 990, are expanded and utilized throughout the entire upper for a sense of visible motion, while wavy lines and scaled up proportions on a sculpted pod midsole place an exaggerated emphasis on the familiar cushioning platforms of ABZORB and SBS.",
-      "price": "12599.00",
-      "quantity": "1"
+      "quantity": "1",
+      "img": "https://www.asics.com/in/en-in/media/catalog/product/1/0/1011b491_024_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
+      "id": "3"
     },
     {
       "id": "5",

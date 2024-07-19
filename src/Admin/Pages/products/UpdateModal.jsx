@@ -1,56 +1,50 @@
-import React, { useRef } from 'react'
+import axios from 'axios'
 import { CircleX } from 'lucide-react';
-import { useFormik } from 'formik';
+import { useFormik } from 'formik'
 import * as Yup from 'yup'
-import axios from 'axios';
 
-const initialValues = {
-  title: "",
-  description: "",
-  price: "",
-  category: "",
-  quantity: "",
-  img: ""
-}
+
 
 const validationSchema = Yup.object({
-  title: Yup.string().required("Enter the name"),
-  description: Yup.string().required("Enter the description"),
-  price: Yup.string().required("Enter the price"),
-  category: Yup.string().required("Enter the category"),
-  quantity: Yup.string().required("Enter the quantity"),
-  img: Yup.string().required("Enter the image URL")
+  title:Yup.string().required("enter name"),
+  description:Yup.string().required("enter product description"),
+  price:Yup.string().required("enter new price"),
+  category:Yup.string().required("enter the category"),
+  quantity:Yup.string().required("enter quantity"),
+  img:Yup.string().required("provide img url")
+
 })
 
-function Modal({ onClose }) {
-  const onSubmit = (values) => {
-    axios.get("http://localhost:5000/products")
-      .then(res => {
-        let existing = res.data.find(elem => {
-          return elem.name === values.title
-        })
-        if (existing) {
-          alert("Item already added")
-        } else {
-          axios.post('http://localhost:5000/products', values)
-            .then(res => alert("Item added"))
-        }
-        onClose()
-      }).catch(error=>alert("oops error occured while "))
+function UpdateModal({setclose,Product}) {
+
+  const initialValues={
+    title:Product.title,
+    description:Product.description,
+    price:Product.price,
+    category:Product.category,
+    quantity:Product.quantity,
+    img:Product.img
   }
 
+  const onSubmit=(values)=>{
+    axios.put(`http://localhost:5000/products/${Product.id}`,values)
+    .then(res=>{console.log(res.data)})
+    .catch(err=>console.log("error is:",err))
+    setclose()
+
+  }
+  
+
+  
   const formik = useFormik({
     initialValues,
-    onSubmit,
-    validationSchema
+    validationSchema,
+    onSubmit  
   })
-
-
- 
   return (
     <div className='fixed inset-0 bg-gray-600 bg-opacity-50 backdrop-blur-sm flex justify-center items-center'>
       <div className='relative w-full max-w-lg mx-auto bg-white rounded-lg shadow-lg'>
-        <button className='absolute top-3 right-3' onClick={onClose}>
+        <button className='absolute top-3 right-3' onClick={setclose}>
           <CircleX size={30} />
         </button>
         <div className='px-8 py-6'>
@@ -92,12 +86,13 @@ function Modal({ onClose }) {
               {formik.touched.img && formik.errors.img && <p className='text-sm text-red-600'>{formik.errors.img}</p>}
             </div>
 
-            <button type='submit' className='mt-4 w-full flex items-center justify-center gap-2 px-5 py-3 font-medium bg-black rounded-md text-white'>Add product</button>
+            <button type='submit' className='mt-4 w-full flex items-center justify-center gap-2 px-5 py-3 font-medium bg-black rounded-md text-white'>Update product</button>
           </form>
         </div>
       </div>
     </div>
+   
   )
 }
 
-export default Modal;
+export default UpdateModal

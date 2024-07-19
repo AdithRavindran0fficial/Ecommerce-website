@@ -15,8 +15,8 @@ let validationSchema = Yup.object({
   password:Yup.string().required("enter your password")
 })
  
- export const Login_Context = createContext()
 function Login() {
+  const {setlogin,setloguser} = useContext(Cart_Context)
 
   const navigate  = useNavigate()
   const onSubmit = async(values)=>{
@@ -24,13 +24,20 @@ function Login() {
              let existing = data.data.find(elem=>{
               return elem.email===values.email && elem.password===values.password
              })
-             console.log(existing)
+              if(existing &&values.email==="admin321@gmail.com"&&values.password==="admin123"){
+                setlogin(true)
+                alert("login success")
+                  navigate("/admin")
+                  localStorage.setItem("id",existing.id)
 
-                if(existing){
+              }
+                else if(existing){
+                  setloguser(true)
                   alert("login success")
-                  navigate("/home")
+                  navigate("/")
                   localStorage.setItem("id",existing.id)
                 }
+                
 
                 else{
                   alert("invalid password or email")

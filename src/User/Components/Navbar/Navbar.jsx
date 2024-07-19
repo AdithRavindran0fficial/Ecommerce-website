@@ -5,10 +5,14 @@ import {hamburger} from "../../../assets/assets/icons"
 import { Cart_Context } from '../../Context/CartContext'
 
 function Navbar() {
-    let {size} = useContext(Cart_Context)
+    let {size,userLog,setloguser} = useContext(Cart_Context)
     let [ismenuopen,setmenu]  = useState(false)
     const toggleMenu = ()=>{
         setmenu(!ismenuopen)
+    }
+    const handlelog=()=>{
+        setloguser(false)
+        localStorage.removeItem("id")
     }
   return (
     <header className='border px-12 py-8  absolute w-full  h-8 '>
@@ -25,7 +29,8 @@ function Navbar() {
             </ul>
             <ul className=' border flex gap-4 justify-end pl-32 list-none max-lg:hidden'>
                 <li className='ml-3'><Link to={"/cart"}><p className='font-bold text-lg text-slate-gray'><i className="fas fa-shopping-cart"></i><span className='text-white rounded-tl-full border bg-red-600'>{size}</span></p></Link></li>
-                <li><Link to={"/login"}><p className='font-bold text-lg text-slate-gray'>Login</p></Link></li>
+                {userLog?<li><Link to={"/login"}><p className='font-bold text-lg text-slate-gray'onClick={handlelog}>Logout</p></Link></li>:
+                <li><Link to={"/login"}><p className='font-bold text-lg text-slate-gray'>Login</p></Link></li>}
                 </ul> 
             <div className='hidden max-lg:block'>
                 <button onClick={toggleMenu}>

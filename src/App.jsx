@@ -13,7 +13,9 @@ import Payment from './User/pages/payments/Payment'
 import CartContext from './User/Context/CartContext'
 import Navbar_admin from './Admin/Component/Navbar_admin'
 import Products from './Admin/Pages/products/Products'
-import Users from './Admin/Pages/Users'
+import Users from './Admin/Pages/Users/Users'
+import AdminHome from './Admin/Pages/AdminHome'
+import Checkout from './User/pages/CheckOutPage/Checkout'
 
 function App() {
 
@@ -22,23 +24,24 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path='admin' element={<Navbar_admin />}>
+          <Route path="admin" element={<AdminHome/>} />
           <Route path="adm-products" element={<Products />} />
           <Route path='adm-users' element={<Users />} />
-      </Route>
-        
+      </Route>  
 
 
-
-        {/* <Route path='/' element={<Navbar />}>
+        <Route path='/' element={<Navbar />}>
           <Route path='/' element={<Home />}></Route> 
-          <Route path='/collections' element={<Collections/>}></Route>
-          <Route path='/men' element={<Men/>}></Route>
-          <Route path='/Women' element={<Women/>}></Route>
-          <Route path='/cart' element={<Cart />}></Route>
-          <Route path='/payment' element={<Payment />}></Route>
+          <Route path='collections' element={<Collections/>}></Route>
+          <Route path='men' element={<Men/>}></Route>
+          <Route path='Women' element={<Women/>}></Route>
+          <Route path='cart' element={<Cart />}></Route>
         </Route>
+
+          <Route path='/checkout' element={<Checkout/>}></Route>
+          <Route path='/payment' element={<Payment />}></Route>
           <Route path='/signup' element={<Signup />}></Route>
-          <Route path='/login' element={<Login />}></Route> */}
+          <Route path='/login' element={<Login />}></Route>
       </Routes>
     </BrowserRouter>
 
