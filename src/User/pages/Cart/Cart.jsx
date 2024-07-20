@@ -67,7 +67,7 @@ function Cart({children}) {
 }      <div className='text-center mt-6 border-4' >
           <span className='text-center font-bold text-lg'>Total Price</span>
           <span className='px-2'>Rs:{total}</span>
-          <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={()=>navigate("/payment")}>Buy</button>
+          <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={()=>navigate("/checkout")}>Buy</button>
          </div>
 
     

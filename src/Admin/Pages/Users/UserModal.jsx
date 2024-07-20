@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { CircleX } from 'lucide-react';
 
 function UserModal({selectedUser,setmodal}) {
-  const[total,setTotal] = useState([])
+  // const[total,setTotal] = useState([])
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-800 bg-opacity-75">
       <div className="bg-white p-8 rounded shadow-lg max-w-md w-full">

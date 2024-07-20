@@ -1,7 +1,8 @@
 import { useFormik } from 'formik'
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import * as Yup from 'yup'
+import { Product_Context } from '../../../Admin/Context/ProductContext';
 
 
 
@@ -37,8 +38,10 @@ const validationSchema = Yup.object({
 
 
 function Checkout() {
+    const {setaddress} = useContext(Product_Context)
     const navigate = useNavigate()
-    const onSubmit=()=>{
+    const onSubmit=(values)=>{
+        setaddress(values)
         navigate("/payment")
     
     }

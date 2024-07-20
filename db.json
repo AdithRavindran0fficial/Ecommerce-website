@@ -6,42 +6,28 @@
       "email": "adithravindran01@gmail.com",
       "password": "12345678",
       "confirmpassword": "12345678",
-      "cart": [
+      "cart": [],
+      "orders": [
         {
-          "id": "3",
-          "category": "men",
-          "img": "https://www.asics.com/in/en-in/media/catalog/product/1/0/1011b491_024_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
-          "title": "GEL-PULSE 14",
-          "description": "The GEL-PULSE™ 14 shoe creates the comfort you need to keep your mind focused on your workout, Whether you're on a run or at the gym, this shoe offers good cushioning and versatility for various activities,This shoe is redesigned with an engineered jacquard mesh, which improves airflow to keep your feet cool, It also wraps your foot with a comfortable fit and feel,Underfoot, the AMPLIFOAM™ cushioning is paired GEL™ technology produce a soft yet responsive stride",
-          "price": "4799.00",
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "id": "c919",
-      "name": "adith Ravindarn",
-      "email": "adithravindran01@gmail.com",
-      "password": "12345678",
-      "confirmpassword": "12345678",
-      "cart": [
-        {
-          "id": 2,
-          "category": "men",
-          "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/52084f93-98d3-4d52-9b57-3f9a7061bb7f/dunk-low-shoes-9cR8rj.png",
-          "title": "Nike Dunk Low",
-          "description": "Created for the hardwood but taken to the streets, this '80s basketball icon returns with classic details and throwback hoops flair. The synthetic leather overlays help the Nike Dunk channel vintage style while its padded, low-cut collar lets you take your game anywhere—in comfort.",
-          "price": "10795.00",
-          "quantity": "1"
-        },
-        {
-          "id": 3,
-          "category": "men",
-          "img": "https://www.asics.com/in/en-in/media/catalog/product/1/0/1011b491_024_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=2000&width=1600&auto=webp&format=pjpg",
-          "title": "GEL-PULSE 14",
-          "description": "The GEL-PULSE™ 14 shoe creates the comfort you need to keep your mind focused on your workout, Whether you're on a run or at the gym, this shoe offers good cushioning and versatility for various activities,This shoe is redesigned with an engineered jacquard mesh, which improves airflow to keep your feet cool, It also wraps your foot with a comfortable fit and feel,Underfoot, the AMPLIFOAM™ cushioning is paired GEL™ technology produce a soft yet responsive stride",
-          "price": "4799.00",
-          "quantity": "1"
+          "name": "adith Ravindarn",
+          "email": "adithravindran01@gmail.com",
+          "phone": "9946173095",
+          "address": "zzzzzzzzzzzzzzzzzzzzz",
+          "pincode": "673306",
+          "city": "calicut",
+          "state": "kerala",
+          "country": "india",
+          "item": [
+            {
+              "id": "5",
+              "category": "men",
+              "img": "https://nb.scene7.com/is/image/NB/u574gbg_nb_05_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
+              "title": "NB-574",
+              "description": "The most New Balance shoe ever’ says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As a hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. That’s why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone.",
+              "price": "5899.00",
+              "quantity": "1"
+            }
+          ]
         }
       ]
     },
@@ -51,7 +37,8 @@
       "email": "admin321@gmail.com",
       "password": "admin123",
       "confirmpassword": "admin123",
-      "cart": []
+      "cart": [],
+      "orders": []
     }
   ],
   "products": [

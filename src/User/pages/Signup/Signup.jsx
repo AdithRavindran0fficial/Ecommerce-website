@@ -12,7 +12,8 @@ const initialValues =  {
     email:"",
     password:"",
     confirmpassword:"",
-    cart:[]
+    cart:[],
+    order:[]
 }
 
     
