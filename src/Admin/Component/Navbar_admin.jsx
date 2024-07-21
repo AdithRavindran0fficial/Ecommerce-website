@@ -1,14 +1,21 @@
 import React, { useContext, useState } from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet, useNavigate } from 'react-router-dom'
 import { hamburger } from '../../assets/assets/icons'
 import { Cart_Context } from '../../User/Context/CartContext'
+import { Product_Context } from '../Context/ProductContext'
 
 function Navbar_admin() {
-  const {isloggedin,setlogin} = useContext(Cart_Context)
+  const navigate = useNavigate()
+  const{login,setlog} = useContext(Product_Context)
   
   const[toggle, setToggle] = useState(false)
   const handleToggle = ()=>{
     setToggle(!toggle)
+  }
+  const handlelog= ()=>{
+    setlog(false)
+    localStorage.removeItem("admin_id")
+    navigate('/login')
   }
   return (
     <header className="px-12 py-8  absolute w-full  h-8 ">
@@ -17,13 +24,13 @@ function Navbar_admin() {
         alt='logo' width={130} height={29}>
         </img>
         <ul className='flex justify-between items-center gap-16 max-lg:hidden'>
-          <li><Link to="admin" >Home</Link></li>
+          <li><Link to="/admin" >Home</Link></li>
           <li><Link to="adm-products">Products</Link></li>
           <li><Link to="adm-users">UserList</Link></li>
         </ul>
         <ul className='max-lg:hidden'>
-          {isloggedin?
-          <li className='text-center '><Link to={"/login"}>Logout</Link></li>:<li className='text-center '><Link to={"/login"}>Login</Link></li>}
+          {login?
+          <li className='text-center ' onClick={handlelog}>Logout</li>:<li className='text-center '><Link to={"/login"}>Login</Link></li>}
         </ul>
         <div className='hidden max-lg:block'>
           <button onClick={handleToggle}><img src={hamburger} width={25} height={25}>

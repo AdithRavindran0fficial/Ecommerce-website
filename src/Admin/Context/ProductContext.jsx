@@ -5,6 +5,7 @@ import Men from '../../User/pages/Men/Men'
 export const Product_Context = createContext()
 
 function ProductContext({children}) {
+    const[login,setlog] = useState(localStorage.getItem("admin_id"))
     const[User,setperson] = useState([])
     const[adress,setaddress] = useState([])
     const[data,setData] = useState([])
@@ -13,6 +14,7 @@ function ProductContext({children}) {
     const[male,setmale] = useState([])
     const[female,setfemale] = useState([])
     let userid = localStorage.getItem("id")
+    let admin_id = localStorage.getItem("admin_id")
 
     useEffect(()=>{
         axios.get(`http://localhost:5000/Users/${userid}`)
@@ -71,7 +73,7 @@ function ProductContext({children}) {
 
   return (
 
-    <Product_Context.Provider value={{male,female,delete_Product,data,price,userid,adress,setaddress,User,remove_user,userCart}}>
+    <Product_Context.Provider value={{setlog,login,admin_id,male,female,delete_Product,data,price,userid,adress,setaddress,User,remove_user,userCart}}>
         {children}
 
     </Product_Context.Provider>

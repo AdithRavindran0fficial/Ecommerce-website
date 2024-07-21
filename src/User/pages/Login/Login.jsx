@@ -4,6 +4,7 @@ import * as Yup from 'yup'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { Cart_Context } from '../../Context/CartContext'
+import { Product_Context } from '../../../Admin/Context/ProductContext'
 
 const initialValues  = {
   email:"",
@@ -16,7 +17,8 @@ let validationSchema = Yup.object({
 })
  
 function Login() {
-  const {setlogin,setloguser} = useContext(Cart_Context)
+  const {setloguser} = useContext(Cart_Context)
+  const {setlog} = useContext(Product_Context)
 
   const navigate  = useNavigate()
   const onSubmit = async(values)=>{
@@ -25,10 +27,10 @@ function Login() {
               return elem.email===values.email && elem.password===values.password
              })
               if(existing &&values.email==="admin321@gmail.com"&&values.password==="admin123"){
-                setlogin(true)
+                setlog(true)
                 alert("login success")
                   navigate("/admin")
-                  localStorage.setItem("id",existing.id)
+                  localStorage.setItem("admin_id",existing.id)
 
               }
                 else if(existing){

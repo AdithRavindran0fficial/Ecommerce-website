@@ -24,7 +24,7 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route path='admin' element={<Navbar_admin />}>
-          <Route path="admin" element={<AdminHome/>} />
+          <Route path="/admin" element={<AdminHome/>} />
           <Route path="adm-products" element={<Products />} />
           <Route path='adm-users' element={<Users />} />
       </Route>  

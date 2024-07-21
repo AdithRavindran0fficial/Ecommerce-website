@@ -21,7 +21,15 @@ function Cart({children}) {
    if(!cart){
     return<div className='flex justify-center'> loading..........</div>
    }
-      
+  const handlecart = ()=>{
+    if(!cart){
+      alert("your cart is empty")
+    }
+    else{
+      navigate("/checkout")
+    }
+  }
+  
 
    
   
@@ -58,18 +66,24 @@ function Cart({children}) {
            </div>
          </div>
          
+         
        </div>
        
+       
 
-      })):( <div className="text-center mt-20">
+      }))
+        
+
+      
+      :( <div className="text-center mt-20">
         <p className="text-gray-500 text-lg">Your cart is empty</p>
       </div>)
-}      <div className='text-center mt-6 border-4' >
+}
+        {cart.length > 0 ?<div className='text-center mt-6 border-4' >
           <span className='text-center font-bold text-lg'>Total Price</span>
           <span className='px-2'>Rs:{total}</span>
-          <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={()=>navigate("/checkout")}>Buy</button>
-         </div>
-
+          <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'onClick={handlecart} >Buy</button>
+         </div> :null  }   
     
     
   </div>

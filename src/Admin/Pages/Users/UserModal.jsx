@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { CircleX } from 'lucide-react';
 
-function UserModal({selectedUser,setmodal}) {
+function UserModal({selectedUser,setModal}) {
   // const[total,setTotal] = useState([])
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-800 bg-opacity-75">
@@ -27,9 +27,9 @@ function UserModal({selectedUser,setmodal}) {
           </>
         )}
         <button className="mt-4 bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700"
-        onClick={()=>setmodal(false)}
+        onClick={()=>setModal(false)}
         >
-          <CircleX/>
+         <CircleX/>
         </button>
       </div>
     </div>
