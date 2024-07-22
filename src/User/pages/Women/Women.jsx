@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { Cart_Context } from '../../Context/CartContext'
+import Footer from '../../Components/footer/Footer'
 
 function Women({children}) {
   let {addtocart,data}= useContext(Cart_Context)
@@ -22,7 +23,9 @@ function Women({children}) {
         </div>
       </div>
     ))}
+     <Footer/>
   </div>
+ 
   )
 }
 

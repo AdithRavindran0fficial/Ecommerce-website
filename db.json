@@ -1,56 +1,25 @@
 {
   "Users": [
     {
-      "id": "f0d9",
-      "name": "adith Ravindarn",
-      "email": "adithravindran01@gmail.com",
-      "password": "12345678",
-      "confirmpassword": "12345678",
-      "cart": [],
-      "orders": [
-        {
-          "name": "adith Ravindarn",
-          "email": "adithravindran01@gmail.com",
-          "phone": "9946173095",
-          "address": "zzzzzzzzzzzzzzzzzzzzz",
-          "pincode": "673306",
-          "city": "calicut",
-          "state": "kerala",
-          "country": "india",
-          "item": [
-            {
-              "id": "5",
-              "category": "men",
-              "img": "https://nb.scene7.com/is/image/NB/u574gbg_nb_05_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
-              "title": "NB-574",
-              "description": "The most New Balance shoe ever’ says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As a hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. That’s why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone.",
-              "price": "5899.00",
-              "quantity": "1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5e90",
+      "id": "58bd",
       "name": "admin",
       "email": "admin321@gmail.com",
       "password": "admin123",
       "confirmpassword": "admin123",
       "cart": [],
-      "orders": []
+      "order": []
+    },
+    {
+      "id": "5b20",
+      "name": "adith Ravindran",
+      "email": "adithravindran01@gmail.com",
+      "password": "12345678",
+      "confirmpassword": "12345678",
+      "cart": [],
+      "order": []
     }
   ],
   "products": [
-    {
-      "id": "1",
-      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a8c70e5b-ac86-4f27-b688-1deeaecec4b6/air-max-97-shoes-EBZrb8.png",
-      "category": "men",
-      "title": "Nike Air Max 97",
-      "description": "Featuring the original ripple design inspired by Japanese bullet trains, the Nike Air Max 97 lets you push your style full-speed ahead.Taking the revolutionary full-length Nike Air unit that shook up the running world and adding fresh colours and crisp details, it lets you ride in first-class comfort.",
-      "price": "16995.00",
-      "quantity": "1"
-    },
     {
       "id": "5",
       "category": "men",
@@ -134,6 +103,105 @@
       "description": "The SOFTRIDE Harmony is a women-specific everyday light trainer designed to help women attack their whole day",
       "price": "3019.00",
       "quantity": "1"
+    },
+    {
+      "id": "a96d",
+      "title": "Nike Air Max 1 Essential",
+      "description": "Meet the leader of the pack. Walking on clouds above the noise, the Air Max 1 blends timeless design with cushioned comfort. Sporting a Max Air unit and mixed materials, this icon hit the scene in '87 and continues to be the soul of the franchise today.",
+      "price": "12795.00",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3d6ccf1f-4675-45ce-ad52-01542b146d0d/air-max-1-essential-shoes-Vz0BS9.png"
+    },
+    {
+      "id": "3774",
+      "title": "Jordan Stadium 90",
+      "description": "Comfort is king, but that doesn't mean you have to sacrifice style. Taking design inspiration from the AJ1 and AJ5, the Stadium 90 is ready for everyday wear. The upper is made from leather and airy woven, so you get both breathability and durability, and Nike Air cushioning in the sole keeps your every step light and cushioned.",
+      "price": "12795.00",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9417c304-a873-4e2b-b8a1-d476be3d7a0c/jordan-stadium-90-shoes-Jn6ZH4.png"
+    },
+    {
+      "id": "5cc4",
+      "title": "Nike Zoom Vomero 5",
+      "description": "Carve a new lane for yourself in the Zoom Vomero 5—your go-to for complexity, depth and classic early 2000s aesthetics. The richly layered design combines breathable and durable materials with the comfort of Air Zoom cushioning for one of the coolest sneakers of the season.",
+      "price": "14995.00",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3958bd30-b8ad-438f-a009-6c5610ff42fa/NIKE+ZOOM+VOMERO+5.png"
+    },
+    {
+      "id": "5068",
+      "title": "Jordan Spizike Low",
+      "description": "The Spizike takes elements of five classic Jordans, combines them and gives you one iconic sneaker. It's an homage to Spike Lee formally introducing Hollywood and hoops in a culture moment. You get a great-looking pair of kicks with some history. What more can you ask for? Ya dig?",
+      "price": "14995.00",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d99a1c5d-3b21-4e45-97c4-7aa85562b158/jordan-spizike-low-shoes-pBZk7c.png"
+    },
+    {
+      "id": "4557",
+      "title": "Nike Pegasus 41",
+      "description": "Responsive cushioning in the Pegasus provides an energised ride for everyday road running. Experience lighter-weight energy return with dual Air Zoom units and a ReactX foam midsole. Plus, improved engineered mesh on the upper decreases weight and increases breathability.",
+      "price": " 11895.00",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2caa40d0-6887-4844-9431-5004b0a1e317/pegasus-41-road-running-shoes-RZm89S.png"
+    },
+    {
+      "id": "b84a",
+      "title": "Jordan Max Aura 6",
+      "description": "Every. Single. Day. That's what the Max Aura 6 is made for. It's the best of the AJ14, including the quilted upper, unmistakable midsole and hidden eyelets, remixed into a new design that prioritises cushioned comfort. As a finishing touch, the AJ14 Jumpman crest legitimises your look.",
+      "price": "11895.00",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ef150417-903a-4375-a274-c27653feebdd/jordan-max-aura-6-shoes-R3588p.png"
+    },
+    {
+      "id": "e869",
+      "title": "Nike Air Max SC Trend",
+      "description": "With its easygoing lines and throwback running style, the Nike Air Max SC is the perfect finish to any outfit. The rich mixture of materials adds depth and durability, making it a go-to shoe for everyday wear.",
+      "price": "8595.00",
+      "category": "women",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5a5301ad-a730-4b06-8a8f-fc3672710814/air-max-sc-trend-shoes-5b5HTB.png"
+    },
+    {
+      "id": "f578",
+      "title": "Nike Air Max 90 LV8",
+      "description": "The Air Max 90 LV8 takes your favourite silhouette to the next level with stacked Nike Air units. Not only do you get extra cushioning, but you get extra height, creating the perfect platform that's easy to style. Layers of mixed materials add texture and dimension, creating an elevated look you'll be reaching for again and again.",
+      "price": " 12795.00",
+      "category": "women",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/83cc54a7-c844-461b-9958-a59acc6ffbc0/air-max-90-lv8-shoes-r1gjfC.png"
+    },
+    {
+      "id": "6b25",
+      "title": "Nike Air Max 90 LV8",
+      "description": "The Air Max 90 LV8 takes your favourite silhouette to the next level with stacked Nike Air units. Not only do you get extra cushioning, but you get extra height, creating the perfect platform that's easy to style. Layers of mixed materials add texture and dimension, creating an elevated look you'll be reaching for again and again.",
+      "price": "12795.00",
+      "category": "women",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/72199c4c-7047-4442-b676-38480cff4420/air-max-90-lv8-shoes-5KhTdP.png"
+    },
+    {
+      "id": "5719",
+      "title": "Nike Air Max 1",
+      "description": "Meet the leader of the pack. Inspired by French architecture, celebrated in sport and revelled by fashion, this is the first shoe in the family that revealed Air to the world. With a fast-paced look, tried-and-tested cushioning and classic wavy mudguard, there's no wonder it's reigned supreme since 1987.",
+      "price": "12795.00",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e45f9a8b-263d-42c8-82dd-0e879a730263/air-max-1-shoes-PZjm4T.png"
+    },
+    {
+      "id": "1085",
+      "title": "adidas",
+      "description": "sss",
+      "price": "1000",
+      "category": "men",
+      "quantity": "1",
+      "img": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2caa40d0-6887-4844-9431-5004b0a1e317/pegasus-41-road-running-shoes-RZm89S.png"
     }
   ]
 }

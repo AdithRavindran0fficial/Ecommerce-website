@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Cart_Context } from '../../Context/CartContext';
 import { searchContext } from '../../Context/Searchprovider';
+import Footer from '../footer/Footer';
 
 function ShoeCard({ data }) {
   const {term} = useContext(searchContext)
@@ -39,6 +40,7 @@ function ShoeCard({ data }) {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
     </>
   );
