@@ -15,7 +15,17 @@
       "email": "adithravindran01@gmail.com",
       "password": "12345678",
       "confirmpassword": "12345678",
-      "cart": [],
+      "cart": [
+        {
+          "id": "5",
+          "category": "men",
+          "img": "https://nb.scene7.com/is/image/NB/u574gbg_nb_05_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
+          "title": "NB-574",
+          "description": "The most New Balance shoe ever’ says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As a hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. That’s why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone.",
+          "price": "5899.00",
+          "quantity": 2
+        }
+      ],
       "order": []
     }
   ],
