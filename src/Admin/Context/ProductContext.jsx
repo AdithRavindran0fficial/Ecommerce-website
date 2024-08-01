@@ -68,7 +68,7 @@ function ProductContext({children}) {
 
     
     
-    
+    // console.log(price)
     
 
   return (

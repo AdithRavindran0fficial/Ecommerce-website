@@ -39,7 +39,7 @@ function Payment() {
       item:[...userCart]
     }
     axios.patch(`http://localhost:5000/Users/${userid}`,{
-      "orders":[...user.orders,newOrder],
+      "orders":[...user.order,newOrder],
       "cart":[]
     })
     .then(res=>alert("order placed"))

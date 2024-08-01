@@ -15,18 +15,31 @@
       "email": "adithravindran01@gmail.com",
       "password": "12345678",
       "confirmpassword": "12345678",
-      "cart": [
+      "cart": [],
+      "order": [],
+      "orders": [
         {
-          "id": "5",
-          "category": "men",
-          "img": "https://nb.scene7.com/is/image/NB/u574gbg_nb_05_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
-          "title": "NB-574",
-          "description": "The most New Balance shoe ever’ says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As a hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. That’s why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone.",
-          "price": "5899.00",
-          "quantity": 2
+          "name": "adith Ravindarn",
+          "email": "adithravindran01@gmail.com",
+          "phone": "9946173095",
+          "address": "zzzzzzzzzzzzzzzzzzzzz",
+          "pincode": "673306",
+          "city": "calicut",
+          "state": "kerala",
+          "country": "inida",
+          "item": [
+            {
+              "id": "8",
+              "category": "women",
+              "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e79ea5db-d175-4a57-b19d-1a2f7862b774/air-force-1-07-lx-shoes-F2RxSm.png",
+              "title": "Nike Air Force 1 '07 LX",
+              "description": "The AF-1 makes the perfect backdrop for showing love to your furry friends. The mixed materials and a raised paw print on the tongue give fresh expression to a Nike classic.",
+              "price": "10795.00",
+              "quantity": "1"
+            }
+          ]
         }
-      ],
-      "order": []
+      ]
     }
   ],
   "products": [

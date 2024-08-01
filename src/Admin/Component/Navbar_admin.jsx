@@ -40,10 +40,11 @@ function Navbar_admin() {
       {toggle&&(
         <div className=' bg-white absolute top-16 left-0 w-full shadow-md'>
           <ul className='flex flex-col items-center'>
-            <li className='py-2'><Link to={"adm-home"} onClick={handleToggle}><p className='font-light text-lg text-slate-gray'>Home</p></Link></li> 
-             <li className='py-2'><Link to={"adm-product"} onClick={handleToggle}><p className='font-light text-lg text-slate-gray'>Product</p></Link></li> 
+            <li className='py-2'><Link to={"/admin"} onClick={handleToggle}><p className='font-light text-lg text-slate-gray'>Home</p></Link></li> 
+             <li className='py-2'><Link to={"adm-products"} onClick={handleToggle}><p className='font-light text-lg text-slate-gray'>Product</p></Link></li> 
              <li className='py-2'><Link to={"adm-users"} onClick={handleToggle}><p className='font-light text-lg text-slate-gray'>UserList</p></Link></li>
-             <li className='py-2'><Link to={"/login"}onClick={handleToggle}><p className='font-light text-lg text-slate-gray'>Login</p></Link></li> 
+             {login?
+          <li className='text-center ' onClick={handlelog}>Logout</li>:<li className='text-center '><Link to={"/login"}>Login</Link></li>}
           </ul>
 
         </div>
